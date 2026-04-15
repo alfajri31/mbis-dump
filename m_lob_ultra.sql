@@ -1,0 +1,11 @@
+INSERT INTO public.m_lob (id, lob_name) VALUES ('ASUR', 'Asuransi Umum') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_lob (id, lob_name) VALUES ('SURE', 'Surety Bond') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_lob (id, lob_name) VALUES ('KONT', 'Kontra Bank Garansi') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_lob (id, lob_name) VALUES ('CUST', 'Customs Bond') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_lob (id, lob_name) VALUES ('LCSK', 'LC / SKBDN') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_lob (id, lob_name) VALUES ('ASU2', 'Asuransi Kredit Kecil') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_lob (id, lob_name) VALUES ('ASU3', 'Asuransi Kredit Menengah') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_lob (id, lob_name) VALUES ('KMKD', 'KMK DF') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_lob (id, lob_name) VALUES ('PROG', 'Program') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_lob (id, lob_name) VALUES ('ASU4', 'Asuransi Kredit Perdagangan') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_lob (id, lob_name) VALUES ('KRED', 'Kredit Usaha Rakyat') ON CONFLICT (id) DO NOTHING;

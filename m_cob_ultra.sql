@@ -1,0 +1,16 @@
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('ASUR', 'Asuransi Rangka Kapal', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('ASU2', 'Asuransi Rekayasa', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('ASU3', 'Asuransi Satelit', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('ASU4', 'Asuransi Tanggung Gugat', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('ASU5', 'Asuransi Aneka', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('ASU6', 'Asuransi Harta Benda', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('ASU7', 'Asuransi Heavy Equipment', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('ASU8', 'Asuransi Kesehatan', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('ASU9', 'Asuransi Kecelakaan (PA)', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('AS10', 'Asuransi Kendaraan Bermotor', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('AS11', 'Asuransi Oil & Gas', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('AS12', 'Asuransi Pengangkutan', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('AS13', 'Asuransi Pesawat Udara', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('SURE', 'Suretyship', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('AS14', 'Asuransi Kredit', '') ON CONFLICT (id) DO NOTHING;
+INSERT INTO public.m_cob (id, cob_name, lob_code) VALUES ('PENJ', 'Penjaminan KUR', '') ON CONFLICT (id) DO NOTHING;
